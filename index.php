@@ -9,8 +9,9 @@ $sql = $con->prepare("SELECT id,titulo,precio FROM libros WHERE activo=1");
 $sql->execute();
 $resultado = $sql->fetchAll(PDO::FETCH_ASSOC);
 
-//session_destroy();
 
+
+//session_destroy();
 ?>
 
 <html lang="es" class="h-100"><head>
