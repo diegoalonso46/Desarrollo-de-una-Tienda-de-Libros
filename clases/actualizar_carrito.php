@@ -52,6 +52,7 @@ function agregar($id,$cantidad){
     }
 }
 
+
 function eliminar($id){
     if($id > 0){
         if (isset($_SESSION['carrito']['libros'][$id])){
