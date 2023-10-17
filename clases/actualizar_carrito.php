@@ -31,7 +31,6 @@ if(isset($_POST['action'])){
 
 echo json_encode($datos);
 
-
 function agregar($id,$cantidad){
     $res = 0;
     if($id > 0 && $cantidad > 0 && is_numeric(($cantidad))){
