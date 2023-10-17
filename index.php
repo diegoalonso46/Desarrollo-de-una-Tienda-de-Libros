@@ -64,6 +64,7 @@ $resultado = $sql->fetchAll(PDO::FETCH_ASSOC);
 </header>
 
 
+
 <!-- Contenido -->
 <main class="flex-shrink-0">
     <div class="container">
