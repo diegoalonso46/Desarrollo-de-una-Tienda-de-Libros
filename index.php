@@ -36,6 +36,7 @@ $resultado = $sql->fetchAll(PDO::FETCH_ASSOC);
 </head>
 
 <body class="d-flex flex-column h-100">
+
 <!-- Menu de navegación -->
 <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -61,6 +62,7 @@ $resultado = $sql->fetchAll(PDO::FETCH_ASSOC);
         </div>
     </nav>
 </header>
+
 
 <!-- Contenido -->
 <main class="flex-shrink-0">
